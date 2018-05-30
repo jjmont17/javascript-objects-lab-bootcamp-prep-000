@@ -1,5 +1,4 @@
-var recipes = { breakfast : 'eggs',
-                lunch : 'turkey hero'
+var recipes = {}
 };
 
 function updateObjectWithKeyAndValue(object, key, value)
