@@ -2,7 +2,7 @@ var recipes = { breakfast : 'eggs',
                 lunch : 'turkey hero'
 };
 
-function updateObjectWithKeyAndValueValue(object, key, value)
+function updateObjectWithKeyAndValue(object, key, value)
 {
   var newRecipes = Object.assign({}, recipes)
   newRecipes[key] = value;
